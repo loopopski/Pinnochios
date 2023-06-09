@@ -1,0 +1,103 @@
+header {
+    background-color: #77adda;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+header h1{
+    color: whitesmoke;
+    border: 8px solid whitesmoke;
+    border-radius: 36px;    
+    padding: 5px 10px;
+    display: inline-block;
+}
+.banner{
+    margin-top: 104px;
+    position: relative;
+}
+.banner img{
+    max-width: 100%;
+}
+.banner .announcement{
+    color: #99cccc;
+    position: absolute;
+    right: 0;
+    top: 30px;
+}
+.banner .welcome{
+    background-color: #244566;
+    color: #cac2a4;
+    padding: 14px;
+    position: absolute;
+    left: 0;
+    top: 30%;
+}
+.banner h2{
+    font-size: 62px;
+}
+.banner h2 span{
+    font-size: 1.3em;
+}
+nav{
+    background-color: #f4f4f4;
+    padding: 20px;
+    position: sticky;
+    top: 104px;
+}
+nav ul{
+    white-space: nowrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+nav li{
+    width: 25%;
+    display: inline-block;
+    font-size: 24px;
+}
+nav li a{
+    text-decoration: none;
+    color: #4b4b4b;
+}
+main {
+    display: flex;
+}
+.myDocuments {
+    background-color: #2ca152;
+    color: antiquewhite;
+    padding: 20px;
+    flex: 1;
+}
+.content {
+    background-color: #244566;
+    color: white;
+    padding: 20px;
+    flex: 3;
+}
+.images{
+    text-align: center;
+    margin: 80px 0;
+    white-space: nowrap;
+}
+.images li{
+    display: inline-block;
+    width: 40%;
+    margin: 20px 5%;
+}
+.images li img{
+    max-width: 100%;    
+    border-radius: 50px;
+}
+.side {
+    background-color: #e6e6a5;
+    padding: 20px;
+    flex: 1;
+}
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
